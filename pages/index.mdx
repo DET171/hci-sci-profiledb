@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import React, { Component } from 'react';
+import { Container } from 'semantic-ui-react';
 
 <Head>
 	<title>HCI Science Project Profile Database</title>
@@ -9,6 +10,11 @@ import React, { Component } from 'react';
 <Container text>
   <main className={styles['top-padded']}>
     # HCI Science Project Profile Database
-		The API Endpoint is 
+		`/api/v1/test`: Test endpoint
+		```json
+		{
+			name: 'John Doe'
+		}
+		```
   </main>
 </Container>
