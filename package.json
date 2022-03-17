@@ -1,0 +1,26 @@
+{
+  "name": "hci-sci-bot-page",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_ENV=development next dev",
+    "build": "NODE_ENV=production next build && next export",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@mdx-js/loader": "^2.0.0",
+    "@next/mdx": "^12.1.0",
+    "axios": "^0.26.1",
+    "eslint-config-berry": "^0.15.5",
+    "fomantic-ui-css": "^2.8.8",
+    "next": "12.1.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "semantic-ui-react": "^2.1.2"
+  },
+  "devDependencies": {
+    "eslint": "8.11.0",
+    "eslint-config-next": "12.1.0"
+  }
+}

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+.body {
+  padding: 0;
+  padding-top: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  background-image: linear-gradient(to top, darkblue, black) !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed;
+  background-size: cover !important;
+  font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+a {
+  color: inherit;
+  color: #0070f3 !important;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  color: white !important;
+}
+
+p, i, b, span {
+  font-size: 18px;
+}
+
+input, textarea {
+  background-color: #000000 !important;
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+  margin-top: 15px !important;
+  margin-bottom: 15px !important;
+}
